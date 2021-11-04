@@ -1,0 +1,17 @@
+---
+
+# NOTE: 'ip' should be an IP address on the vboxnet that your instances are being created at.
+# The below are created in the 172.28.128.0/24 network local to my virtualbox. I'm not sure
+# if this is the default, or just my specific network.
+
+nomad:
+  hostname: nomad
+  box: bento/ubuntu-20.04
+  ram: 1024
+  ip: 172.28.128.100
+
+consul:
+  hostname: consul
+  box: bento/ubuntu-20.04
+  ram: 1024
+  ip: 172.28.128.101

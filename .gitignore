@@ -1,0 +1,3 @@
+certs/*.pem
+/.vagrant/
+.DS_Store
